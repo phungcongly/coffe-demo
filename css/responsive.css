@@ -135,12 +135,10 @@
     .bars{
         font-size: 16px;
     }
-   
-   
-   .topbar.sticky .logo i {
+    .topbar.sticky .logo i {
        font-size: 20px;
    }
-   .topbar.sticky .logo a{
+    .topbar.sticky .logo a{
        font-size: 20px;
        color: var(--primary-color);
    }
