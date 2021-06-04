@@ -1,17 +1,6 @@
 @media (max-width:992px){
 
-    html{
-        font-size: 62.5%;
-
-    }
-    p {
-        margin: 0;
-        padding: 0;
-        font-size: 16px;
-        line-height: 20px;
-        color: var(--para-color);
-        font-family: 'Montserrat', sans-serif;
-      }
+   
     .topbar .navbar .menu-bar li{
         display: none;
     }
@@ -130,6 +119,7 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 30px;
     }
+
     
 }
 
@@ -141,9 +131,9 @@
     p {
         margin: 0;
         padding: 0;
-        font-size: 14px;
+        font-size: 62.5%;
         line-height: 1.4;
-        letter-spacing: .5px;
+        letter-spacing: .2px;
         color: var(--para-color);
         font-family: 'Montserrat', sans-serif;
       }
