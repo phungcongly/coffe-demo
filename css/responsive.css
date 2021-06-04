@@ -1,4 +1,8 @@
 @media (max-width:992px){
+
+    html{
+        font-size: 62.5%;
+    }
     .topbar .navbar .menu-bar li{
         display: none;
     }
