@@ -3,10 +3,10 @@
     width: 100%;
     
     background-image: linear-gradient(rgba(20, 22, 23,0.6),rgba(20, 22, 23,0.6)),
-    url('../images/coffee-beans-with-props-making-coffee.jpg');
+    url('../images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center;
     background-attachment: fixed;
 }
 .direct{
