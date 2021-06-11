@@ -71,3 +71,12 @@ $('[name=tabs]').on('change', function(){
   $('.tabtle').removeClass('on');
   $('.tabtle').eq(i).addClass('on');
 });
+
+
+AOS.init({
+  delay : 300,
+  once :true,
+
+
+});
+
