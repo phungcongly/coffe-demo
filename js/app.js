@@ -53,3 +53,21 @@ $('.slide').slick({
  
 });
 
+$('[name=tabs]').each(function(i,d){
+  var p = $(this).prop('checked');
+//   console.log(p);
+  if(p){
+    $('.tabtle').eq(i)
+      .addClass('on');
+  }    
+});  
+
+$('[name=tabs]').on('change', function(){
+  var p = $(this).prop('checked');
+  
+  // $(type).index(this) == nth-of-type
+  var i = $('[name=tabs]').index(this);
+  
+  $('.tabtle').removeClass('on');
+  $('.tabtle').eq(i).addClass('on');
+});

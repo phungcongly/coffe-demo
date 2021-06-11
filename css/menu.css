@@ -1,0 +1,113 @@
+.title-content{
+
+    margin: 50px 0;
+}
+.menu-page{
+    padding: 30px 0;
+}
+.text-center{
+    text-align: center;
+}
+
+.tabtle{
+    display: none;
+   
+}
+.tabtle.on{
+    display: block;
+    
+}
+ 
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+   display: none;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label{
+   
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-right: 20px;
+    color: #777
+}
+[type="radio"]:checked + label {
+    background: var(--primary-color);
+    color: #fff;
+}
+[type="radio"]:not(:checked) + label{
+    border: 1px solid #777;
+}
+[type="radio"]:not(:checked) + label:hover{
+    color:var(--dark)
+}
+.menu-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    transition: 0.3s ease;
+}
+.menu-wrapper .menu-list{
+    width: 50%;
+}
+.menu-list .item{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.menu-list .item img{
+    width: 80px;
+    height: 80px;
+
+}
+
+
+.menu-list .item > div{
+    width: 80%;
+}
+.menu-list .item .item-name{
+    display: flex;
+    justify-content: 
+    space-between;
+   
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+
+}
+.menu-list .item-name{
+    border-bottom: 2px dotted;
+    border-color: #777;
+}
+
+.item-name h6{
+    font-size: 20px;
+    font-weight: 600px;
+}
+.item-name .price{
+ color: var(--primary-color);
+ font-size: 20px;
+ 
+}
+
+@media (max-width : 992px){
+    .menu-wrapper .menu-list{
+        width: 100%;
+    }
+    .menu-list .item{
+        margin-bottom: 2rem;
+    }
+    
+
+}
+@media (max-width : 480px){
+   
+    [type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 25px;
+    width: 60%;
+   
+}
+
+}
+

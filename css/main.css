@@ -23,9 +23,7 @@
     color: var(--primary-color);
 }
 
-.topbar.sticky .navbar .menu-bar li a.active{
-    color: var(--primary-color);
-}
+
 .bars{
     color: var(--primary);
     font-size: 20px;
@@ -36,9 +34,9 @@
     display: inline-block;
     margin-right: 0.5rem;
 }
-.topbar .navbar .menu-bar li a{
+ .menu-bar li a{
     padding: 0.5rem 1rem;
-    color: var(--light);
+    
     transition: 0.3s ease;
 }
 .topbar .navbar .menu-bar li:hover a{
@@ -71,10 +69,11 @@ section.hero{
     height: 100vh;
     background: linear-gradient(
         rgba(46,44,39,0.4), rgba(46,44,39,0.4)
-    ),url('../images/background.jpg');
+    ),url('../images/pexels-marta-dzedyshko-2067628.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 section.hero .banner{
     
@@ -153,7 +152,7 @@ section.services .services-box .box i{
     margin-bottom: 25px;
 }
 section.services .services-box .box p{
-    font-size: 18px;
+    font-size: 16px;
     color: #999;
 }
 section.recipe .section-image{
