@@ -69,7 +69,7 @@ section.hero{
     height: 100vh;
     background: linear-gradient(
         rgba(46,44,39,0.4), rgba(46,44,39,0.4)
-    ),url('../images/coffee_glass_drink_inscription_120240_1920x1080.jpg');
+    ),url('../images/background.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
